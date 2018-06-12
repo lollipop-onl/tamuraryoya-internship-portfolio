@@ -1,0 +1,224 @@
+@charset "UTF-8";
+/* line 5, ../../../../../var/lib/gems/1.9.1/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+/* line 22, ../../../../../var/lib/gems/1.9.1/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+html {
+  line-height: 1;
+}
+
+/* line 24, ../../../../../var/lib/gems/1.9.1/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+ol, ul {
+  list-style: none;
+}
+
+/* line 26, ../../../../../var/lib/gems/1.9.1/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 28, ../../../../../var/lib/gems/1.9.1/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle;
+}
+
+/* line 30, ../../../../../var/lib/gems/1.9.1/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+q, blockquote {
+  quotes: none;
+}
+/* line 103, ../../../../../var/lib/gems/1.9.1/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+q:before, q:after, blockquote:before, blockquote:after {
+  content: "";
+  content: none;
+}
+
+/* line 32, ../../../../../var/lib/gems/1.9.1/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+a img {
+  border: none;
+}
+
+/* line 116, ../../../../../var/lib/gems/1.9.1/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
+  display: block;
+}
+
+/* line 4, ../_scss/style.scss */
+body {
+  font-family: Avenir , "Open Sans" , "Helvetica Neue" , Helvetica , Arial , Verdana , Roboto , "游ゴシック" , "Yu Gothic" , "游ゴシック体" , "YuGothic" , "ヒラギノ角ゴ Pro W3" , "Hiragino Kaku Gothic Pro" , "Meiryo UI" , "メイリオ" , Meiryo , "ＭＳ Ｐゴシック" , "MS PGothic" , sans-serif;
+  background: #ccf;
+}
+
+/* line 9, ../_scss/style.scss */
+.item-card {
+  overflow: hidden;
+  display: block;
+  border: 1px solid #ccc;
+}
+/* line 13, ../_scss/style.scss */
+.item-card .eyecatch {
+  width: 200px;
+  height: 200px;
+  padding: 2px;
+  border: 1px solid #aaa;
+  border-radius: 100%;
+}
+/* line 19, ../_scss/style.scss */
+.item-card .eyecatch img {
+  width: 100%;
+  height: 100%;
+  border-radius: 100%;
+}
+/* line 26, ../_scss/style.scss */
+.item-card .content h2 {
+  font-size: 24px;
+  color: #050505;
+}
+/* line 30, ../_scss/style.scss */
+.item-card .content .release {
+  font-size: 15px;
+  margin-left: 15px;
+  color: #252521;
+}
+
+/* line 38, ../_scss/style.scss */
+.cp {
+  display: block;
+  margin: 15px 30px;
+  font-size: 13px;
+  text-align: right;
+  color: #333;
+  text-shadow: 0 1px 0 #aaa;
+}
+
+/* line 1, ../_scss/_wide.scss */
+.item-card {
+  width: 800px;
+  margin: 20px auto;
+  padding: 20px 40px;
+  box-sizing: border-box;
+  border-radius: 5px;
+  background: #fcfcfc;
+  box-shadow: 0 7px 5px -5px #666;
+}
+/* line 9, ../_scss/_wide.scss */
+.item-card .eyecatch {
+  float: left;
+}
+/* line 12, ../_scss/_wide.scss */
+.item-card .content {
+  margin-top: 30px;
+  margin-left: 240px;
+}
+/* line 16, ../_scss/_wide.scss */
+.item-card .content .details .details-item {
+  margin: 15px 20px 0;
+  line-height: 20px;
+}
+/* line 19, ../_scss/_wide.scss */
+.item-card .content .details .details-item .label {
+  font-size: 13px;
+  color: #595959;
+}
+/* line 22, ../_scss/_wide.scss */
+.item-card .content .details .details-item .label::after {
+  content: " : ";
+}
+/* line 26, ../_scss/_wide.scss */
+.item-card .content .details .details-item .icon {
+  margin: 0 5px;
+  font-size: 25px;
+}
+/* line 30, ../_scss/_wide.scss */
+.item-card .content .details .details-item .text {
+  font-size: 16px;
+}
+/* line 33, ../_scss/_wide.scss */
+.item-card .content .details .details-item .link {
+  font-size: 16px;
+}
+/* line 35, ../_scss/_wide.scss */
+.item-card .content .details .details-item .link a {
+  color: #ccf;
+}
+/* line 37, ../_scss/_wide.scss */
+.item-card .content .details .details-item .link a:hover {
+  color: #fcc;
+  text-decoration: none;
+}
+/* line 46, ../_scss/_wide.scss */
+.item-card .body {
+  clear: left;
+  margin-top: 15px;
+}
+/* line 49, ../_scss/_wide.scss */
+.item-card .body .body-item {
+  line-height: 20px;
+}
+/* line 51, ../_scss/_wide.scss */
+.item-card .body .body-item .label {
+  font-size: 13px;
+  color: #595959;
+}
+/* line 54, ../_scss/_wide.scss */
+.item-card .body .body-item .label::after {
+  content: " : ";
+}
+/* line 59, ../_scss/_wide.scss */
+.item-card .body .body-item.sentence .label {
+  float: left;
+}
+/* line 62, ../_scss/_wide.scss */
+.item-card .body .body-item.sentence p {
+  margin-left: 70px;
+  font-size: 14px;
+  color: #454545;
+}
+/* line 68, ../_scss/_wide.scss */
+.item-card .body .body-item.gallery {
+  margin-top: 18px;
+}
+/* line 70, ../_scss/_wide.scss */
+.item-card .body .body-item.gallery a {
+  float: left;
+  display: block;
+  width: 23%;
+  margin-right: 2%;
+  padding: 2px;
+  box-sizing: border-box;
+  border: 1px solid #dfdfdf;
+}
+/* line 78, ../_scss/_wide.scss */
+.item-card .body .body-item.gallery a .thumb {
+  overflow: hidden;
+  width: 100%;
+  height: 0;
+  padding-top: 160px;
+  background-size: cover;
+  background-position: center center;
+}
+/* line 85, ../_scss/_wide.scss */
+.item-card .body .body-item.gallery a .thumb::last-child {
+  margin-right: 0;
+}

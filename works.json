@@ -1,0 +1,169 @@
+[
+	{
+		"name": "デジタル版 白鳥寮献立表",
+		"id": "uswan2",
+		"release": "2016.05.11 -",
+		"device": {
+			"mobile": true,
+			"pc": true
+		},
+		"period": "2 weeks",
+		"url":  "http://uswan2.web.fc2.com",
+		"comment": [
+			"それまであった献立をツイートするボットがなくなったため、ゴールデンウィークを使って制作。レンタルホームページを使用したため、データベースの代替としてJSONを使用しました。",
+			"メニューを検索する機能も実装しました。複数に分割されたJSONファイルからメニューを検索できます。"
+		],
+		"gallery": [
+			{
+				"src": "ss1.png",
+				"capture": "献立表示"
+			},
+			{
+				"src": "ss2.png",
+				"capture": "メニュー検索結果画面"
+			},
+			{
+				"src": "ss3.png",
+				"capture": "メニューJSONファイルエディタ"
+			}
+		]
+	},
+	{
+		"name": "問題帳",
+		"id": "qbook",
+		"release": "Private",
+		"device": {
+			"mobile": true,
+			"pc": false
+		},
+		"period": "1 month",
+		"url":  "http://qbook.zatunen.com/",
+		"comment": [
+			"2015年夏制作。自分にあった単語帳がなかったので作ってみました。",
+			"普通の単語帳の機能に加え、ニガテリストに追加したり、リストを編集する機能もつくりました。",
+			"レンタルホームページを利用したため、データベースが使なかったため、CSVに問題を収録し、苦手リストはCookieで実現しました。"
+		],
+		"gallery": [
+			{
+				"src": "ss1.png",
+				"capture": "単語帳選択画面"
+			},
+			{
+				"src": "ss2.png",
+				"capture": "解答画面"
+			},
+			{
+				"src": "ss3.png",
+				"capture": "苦手リスト編集画面"
+			}
+		]
+	},
+	{
+		"name": "第53回 宇部高専高専祭ホームページ",
+		"id": "nitucfes53",
+		"release": "2016.05.01 -",
+		"device": {
+			"mobile": true,
+			"pc": true
+		},
+		"period": "3 weeks",
+		"url":  "http://nitucfes53.web.fc2.com/",
+		"comment": [
+			"第53回宇部高専高専祭広報部として制作。「SPLASH!〜自分色に染めろ!!!〜」のテーマのもと、自分で選んだ色で背景にインクが飛び出すようにしました。",
+			"また、スポンサー一覧では、50音別にJSONファイルに書き込まれた情報から自動でソート・配置・コード生成までできるようにし、ヒューマンエラーによる間違いや手間を減らしました。"
+		],
+		"gallery": [
+			{
+				"src": "ss1.jpg",
+				"capture": "トップページ"
+			},
+			{
+				"src": "ss2.jpg",
+				"capture": "トップページ（スマホビュー）"
+			},
+			{
+				"src": "ss3.jpg",
+				"capture": "スポンサー一覧（サンプル）"
+			},
+			{
+				"src": "ss4.jpg",
+				"capture": "初回アクセス画面。個性を表すためたくさんの言語を表示した"
+			}
+		]
+	},
+	{
+		"name": "デジタル版 白鳥寮献立表 (1代目）",
+		"id": "uswan",
+		"release": "2014.08 - 2014.11",
+		"device": {
+			"mobile": true,
+			"pc": false
+		},
+		"period": "2 month",
+		"url":  "http://uswan.web.fc2.com",
+		"comment": [
+			"ウェブを勉強し始めてはじめて作ったウェブアプリっぽいもの。この頃はまだデータベースという考えがなかったため、配列でメニューが記述されたものが月別に分割されています。"
+		],
+		"gallery": [
+			{
+				"src": "ss1.png",
+				"capture": "一ヶ月の献立"
+			}
+		]
+	},
+	{
+		"name": "宇部高専鉄道研究愛好会ウェブサイト",
+		"id": "urrc",
+		"release": "2013.10.27 -",
+		"device": {
+			"mobile": false,
+			"pc": true
+		},
+		"period": "3 month",
+		"url":  "http://urrc.web.fc2.com",
+		"comment": [
+			"自分の所属している愛好会のウェブサイトの制作を担当しました。",
+			"HTML/CSS/JavaScriptを勉強しながら作りました。",
+			"クライアントサイドの処理のみでブログや側面方向幕シミュレータなどを実現しました。"
+		],
+		"gallery": [
+			{
+				"src": "ss1.jpg",
+				"capture": "トップページ"
+			},
+			{
+				"src": "ss2.jpg",
+				"capture": "高専祭（学祭）ブログ"
+			},
+			{
+				"src": "ss3.jpg",
+				"capture": "方向幕シミュレータ"
+			}
+		]
+	},
+	{
+		"name": "うべ鉄道バスサポーターズ（通称：てばさぽ）ウェブサイト",
+		"id": "ube-tebasapo",
+		"release": "2016.01.01 -",
+		"device": {
+			"mobile": false,
+			"pc": true
+		},
+		"period": "2 month",
+		"url":  "http://ube-tebasapo.jp",
+		"comment": [
+			"宇部・小野田地区の公共交通機関の利用を促進する団体「てばさぽ」のウェブサイト制作を担当しました。",
+			"はじめてのWordPressを用いたサーバサイドも絡むサイトでした。"
+		],
+		"gallery": [
+			{
+				"src": "ss1.jpg",
+				"capture": "トップページ"
+			},
+			{
+				"src": "ss2.jpg",
+				"capture": "ブログエントリー"
+			}
+		]
+	}
+]

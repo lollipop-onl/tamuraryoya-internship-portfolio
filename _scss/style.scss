@@ -1,0 +1,47 @@
+@import "compass";
+@import "compass/reset";
+
+body {
+	font-family:Avenir , "Open Sans" , "Helvetica Neue" , Helvetica , Arial , Verdana , Roboto , "游ゴシック" , "Yu Gothic" , "游ゴシック体" , "YuGothic" , "ヒラギノ角ゴ Pro W3" , "Hiragino Kaku Gothic Pro" , "Meiryo UI" , "メイリオ" , Meiryo , "ＭＳ Ｐゴシック" , "MS PGothic" , sans-serif;
+	background: #ccf;
+}
+
+.item-card {
+	overflow: hidden;
+	display: block;
+	border: 1px solid #ccc;
+	.eyecatch {
+		width: 200px;
+		height: 200px;
+		padding: 2px;
+		border: 1px solid #aaa;
+		border-radius: 100%;
+		img {
+			width: 100%;
+			height: 100%;
+			border-radius: 100%;
+		}
+	}
+	.content {
+		h2 {
+			font-size: 24px;
+			color: #050505;
+		}
+		.release {
+			font-size: 15px;
+			margin-left: 15px;
+			color: #252521;
+		}
+	}
+}
+
+.cp {
+	display: block;
+	margin: 15px 30px;
+	font-size: 13px;
+	text-align: right;
+	color: #333;
+	text-shadow: 0 1px 0 #aaa;
+}
+
+@import "wide";
